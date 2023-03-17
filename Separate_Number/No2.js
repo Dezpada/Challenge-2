@@ -17,4 +17,6 @@ console.log(checkTypeNumber("3")); // OUTPUT yang keluar => "Error: Inval>
 console.log(checkTypeNumber({})); // OUTPUT yang keluar => "Error: Invali>
 console.log(checkTypeNumber([])); // OUTPUT yang keluar => "Error: Invali>
 console.log(checkTypeNumber()); // OUTPUT yang keluar => "Error: Bro wher>
-console.log("=== END OF NUMBER 2 ===");
+console.log("=== END OF NUMBER 2 ===\n");
+
+exports.checkTypeNumber = checkTypeNumber;

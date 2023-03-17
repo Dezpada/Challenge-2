@@ -1,3 +1,4 @@
+const { checkTypeNumber } = require("./No2");
 console.log("=== NUMBER 3 ===");
 function checkEmail(email) {
   if (!email) {
